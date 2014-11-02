@@ -380,3 +380,44 @@ Invoking: NVCC Linker
 /Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B01"  ./src/B01.o   
 Finished building target: B01
  
+21:33:31 **** Incremental Build of configuration Debug for project B01 ****
+make all 
+Building file: ../src/B01.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B01.d" "../src/B01.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B01.o" "../src/B01.cu"
+../src/B01.cu(61): error: identifier "argsv" is undefined
+
+../src/B01.cu(13): warning: variable "WORK_SIZE" was declared but never referenced
+
+1 error detected in the compilation of "/var/folders/t5/x8vz05px1hj0msfzyf48xrrh0000gn/T//tmpxft_0000042c_00000000-6_B01.cpp1.ii".
+make: *** [src/B01.o] Error 2
+21:33:58 **** Incremental Build of configuration Debug for project B01 ****
+make all 
+Building file: ../src/B01.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B01.d" "../src/B01.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B01.o" "../src/B01.cu"
+../src/B01.cu(61): error: a value of type "char *" cannot be used to initialize an entity of type "int"
+
+../src/B01.cu(13): warning: variable "WORK_SIZE" was declared but never referenced
+
+1 error detected in the compilation of "/var/folders/t5/x8vz05px1hj0msfzyf48xrrh0000gn/T//tmpxft_0000045f_00000000-6_B01.cpp1.ii".
+make: *** [src/B01.o] Error 2
+21:36:45 **** Incremental Build of configuration Debug for project B01 ****
+make all 
+Building file: ../src/B01.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B01.d" "../src/B01.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B01.o" "../src/B01.cu"
+../src/B01.cu(13): warning: variable "WORK_SIZE" was declared but never referenced
+
+../src/B01.cu(13): warning: variable "WORK_SIZE" was declared but never referenced
+
+Finished building: ../src/B01.cu
+ 
+Building target: B01
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B01"  ./src/B01.o   
+Finished building target: B01
+ 

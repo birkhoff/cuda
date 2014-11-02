@@ -1,4 +1,4 @@
-21:17:14 **** Incremental Build of configuration Debug for project B01 ****
+21:36:45 **** Incremental Build of configuration Debug for project B01 ****
 make all 
 Building file: ../src/B01.cu
 Invoking: NVCC Compiler
@@ -16,5 +16,5 @@ Invoking: NVCC Linker
 Finished building target: B01
  
 
-21:17:17 Build Finished (took 3s.372ms)
+21:36:47 Build Finished (took 1s.999ms)
 
