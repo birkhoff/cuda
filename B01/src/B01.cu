@@ -54,7 +54,7 @@ __global__ void add(int *a, int *b, int *c)
 
 #define N 1024
 
-int main(void)
+int main(int argc, char *argv[])
 {
 
 
