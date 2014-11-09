@@ -210,3 +210,6 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/Mike/
 
 !ENTRY org.eclipse.cdt.debug.core 4 105 2014-11-09 17:00:30.145
 !MESSAGE A program file was not specified in the launch configuration.
+
+!ENTRY org.eclipse.cdt.debug.core 4 105 2014-11-09 20:02:38.102
+!MESSAGE A program file was not specified in the launch configuration.

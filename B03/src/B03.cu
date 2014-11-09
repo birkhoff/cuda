@@ -11,7 +11,7 @@
 #include <stdlib.h>
 #include <sys/time.h>
 
-static const int WORK_SIZE = 256;
+//static const int WORK_SIZE = 256;
 
 /**
  * This macro checks return value of the CUDA runtime call and exits
@@ -41,12 +41,21 @@ __global__ void bitreverse(void *data) {
 }
 
 
-__global__ void multiply(int *a, int *b, int *c)
+__global__ void multiply(int *a, int *b, int *c, int a_r,int a_c, int b_r, int b_c)
 {
 	//c[blockIdx.x] = a[blockIdx.x] + b[blockIdx.x];
 	int index = threadIdx.x + blockIdx.x * blockDim.x;
 
-	c[index] += a[index] * b[index];
+	// c is a_r b_c
+	int row = index/b_c;
+	int column = index % b_c;
+
+	int i;
+	for(i=0; i<a_c;i++)
+	{
+		c[index] += a[row+i]*b[column+(i*b_c)];
+	}
+
 }
 
 
@@ -58,7 +67,7 @@ void printMatrix(int* m, int rows, int columns)
 	{
 		for(j=0;j<columns;j++)
 		{
-			printf("%d\t",m[i*j]);
+			printf("%d\t",m[i*columns+j]);
 		}
 		printf("\n");
 	}
@@ -102,7 +111,8 @@ int main(int argc, char *argv[]) {
 	cudaGetDeviceCount(&nDevices);
 	int THREADS_PER_BLOCK = 0;
 
-	for (int i = 0; i < nDevices; i++) {
+	for (int i = 0; i < nDevices; i++)
+	{
 	    cudaDeviceProp prop;
 	    cudaGetDeviceProperties(&prop, i);
 	    printf("  Device Number: %d\n", i);
@@ -125,7 +135,7 @@ int main(int argc, char *argv[]) {
 	{
 		for(j=0; j < a_c; j++)
 		{
-			a[i*j] = 1;		//rand() % 100;
+			a[i*a_c+j] = 1;		//rand() % 100;
 		}
 	}
 
@@ -133,7 +143,7 @@ int main(int argc, char *argv[]) {
 	{
 		for(j=0; j < b_c; j++)
 		{
-			b[i*j] = 1;		//rand() % 100;
+			b[i*b_c+j] = 1;		//rand() % 100;
 
 		}
 	}
@@ -142,7 +152,7 @@ int main(int argc, char *argv[]) {
 	{
 		for(j= 0; j < b_c; j++)
 		{
-			c[i*j] = 0;
+			c[i*b_c+j] = 0;
 		}
 	}
 
@@ -155,7 +165,8 @@ int main(int argc, char *argv[]) {
 	cudaMemcpy(d_c, c, a_r*b_c * sizeof(int), cudaMemcpyHostToDevice);
 
 	// Launch add() kernel on GPU with N blocks
-	multiply<<<1,THREADS_PER_BLOCK>>>(d_a, d_b, d_c);
+	int blocks = a_r*b_c/1024+1;				// Quickfix needs to be done correctly
+	multiply<<<blocks,(a_r*b_c)%1024>>>(d_a, d_b, d_c, a_r,a_c, b_r, b_c);
 
 	// Copy result back to host
 	cudaMemcpy(c, d_c, a_r*b_c * sizeof(int), cudaMemcpyDeviceToHost);
@@ -166,7 +177,7 @@ int main(int argc, char *argv[]) {
 	printMatrix(a, a_r, a_c);
 	printMatrix(b, b_r, b_c);
 	printMatrix(c, a_r, b_c);
-
+	printf("Time Calculated: %f\n\n", time_spent);
 
 	return 0;
 }

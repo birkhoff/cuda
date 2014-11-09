@@ -1,16 +1,12 @@
-17:00:26 **** Incremental Build of configuration Debug for project B03 ****
+20:02:34 **** Incremental Build of configuration Debug for project B03 ****
 make all 
 Building file: ../src/B03.cu
 Invoking: NVCC Compiler
 /Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B03.d" "../src/B03.cu"
 /Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B03.o" "../src/B03.cu"
-../src/B03.cu(163): warning: variable "time_spent" was declared but never referenced
+../src/B03.cu(116): warning: variable "THREADS_PER_BLOCK" was set but never used
 
-../src/B03.cu(14): warning: variable "WORK_SIZE" was declared but never referenced
-
-../src/B03.cu(163): warning: variable "time_spent" was declared but never referenced
-
-../src/B03.cu(14): warning: variable "WORK_SIZE" was declared but never referenced
+../src/B03.cu(116): warning: variable "THREADS_PER_BLOCK" was set but never used
 
 Finished building: ../src/B03.cu
  
@@ -20,5 +16,5 @@ Invoking: NVCC Linker
 Finished building target: B03
  
 
-17:00:28 Build Finished (took 2s.119ms)
+20:02:36 Build Finished (took 2s.4ms)
 
