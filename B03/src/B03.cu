@@ -10,6 +10,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/time.h>
+#include <math.h>
 
 //static const int WORK_SIZE = 256;
 
@@ -165,8 +166,8 @@ int main(int argc, char *argv[]) {
 	cudaMemcpy(d_c, c, a_r*b_c * sizeof(int), cudaMemcpyHostToDevice);
 
 	// Launch add() kernel on GPU with N blocks
-	int blocks = a_r*b_c/1024+1;				// Quickfix needs to be done correctly
-	multiply<<<blocks,(a_r*b_c)%1024>>>(d_a, d_b, d_c, a_r,a_c, b_r, b_c);
+	int blocks = ceil((float)a_r*b_c/1024);								// round up
+	multiply<<<blocks,1024>>>(d_a, d_b, d_c, a_r,a_c, b_r, b_c);
 
 	// Copy result back to host
 	cudaMemcpy(c, d_c, a_r*b_c * sizeof(int), cudaMemcpyDeviceToHost);
@@ -178,6 +179,6 @@ int main(int argc, char *argv[]) {
 	printMatrix(b, b_r, b_c);
 	printMatrix(c, a_r, b_c);
 	printf("Time Calculated: %f\n\n", time_spent);
-
+	printf("Block Count: %d\n",blocks);
 	return 0;
 }
