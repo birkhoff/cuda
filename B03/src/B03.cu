@@ -14,6 +14,8 @@
 
 //static const int WORK_SIZE = 256;
 
+// ./B03 60 5555 5555 25
+
 /**
  * This macro checks return value of the CUDA runtime call and exits
  * the application if the call failed.
