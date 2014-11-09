@@ -421,3 +421,235 @@ Invoking: NVCC Linker
 /Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B01"  ./src/B01.o   
 Finished building target: B01
  
+16:34:29 **** Build of configuration Debug for project B03 ****
+make all 
+Building file: ../src/B03.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B03.d" "../src/B03.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B03.o" "../src/B03.cu"
+../src/B03.cu(75): error: identifier "nDevices" is undefined
+
+../src/B03.cu(56): warning: variable "t0" was declared but never referenced
+
+../src/B03.cu(57): warning: variable "t1" was declared but never referenced
+
+../src/B03.cu(68): warning: variable "d_a" was declared but never referenced
+
+../src/B03.cu(68): warning: variable "d_b" was declared but never referenced
+
+../src/B03.cu(68): warning: variable "d_c" was declared but never referenced
+
+../src/B03.cu(13): warning: variable "WORK_SIZE" was declared but never referenced
+
+1 error detected in the compilation of "/var/folders/t5/x8vz05px1hj0msfzyf48xrrh0000gn/T//tmpxft_00000649_00000000-6_B03.cpp1.ii".
+make: *** [src/B03.o] Error 2
+16:35:40 **** Incremental Build of configuration Debug for project B03 ****
+make all 
+Building file: ../src/B03.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B03.d" "../src/B03.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B03.o" "../src/B03.cu"
+../src/B03.cu(56): warning: variable "t0" was declared but never referenced
+
+../src/B03.cu(57): warning: variable "t1" was declared but never referenced
+
+../src/B03.cu(68): warning: variable "d_a" was declared but never referenced
+
+../src/B03.cu(68): warning: variable "d_b" was declared but never referenced
+
+../src/B03.cu(68): warning: variable "d_c" was declared but never referenced
+
+../src/B03.cu(13): warning: variable "WORK_SIZE" was declared but never referenced
+
+../src/B03.cu(56): warning: variable "t0" was declared but never referenced
+
+../src/B03.cu(57): warning: variable "t1" was declared but never referenced
+
+../src/B03.cu(68): warning: variable "d_a" was declared but never referenced
+
+../src/B03.cu(68): warning: variable "d_b" was declared but never referenced
+
+../src/B03.cu(68): warning: variable "d_c" was declared but never referenced
+
+../src/B03.cu(13): warning: variable "WORK_SIZE" was declared but never referenced
+
+Finished building: ../src/B03.cu
+ 
+Building target: B03
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B03"  ./src/B03.o   
+Finished building target: B03
+ 
+16:42:20 **** Incremental Build of configuration Debug for project B03 ****
+make all 
+Building file: ../src/B03.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B03.d" "../src/B03.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B03.o" "../src/B03.cu"
+../src/B03.cu(62): error: identifier "print" is undefined
+
+../src/B03.cu(113): error: identifier "prop" is undefined
+
+../src/B03.cu(72): warning: variable "t0" was declared but never referenced
+
+../src/B03.cu(73): warning: variable "t1" was declared but never referenced
+
+../src/B03.cu(88): warning: variable "d_a" was declared but never referenced
+
+../src/B03.cu(88): warning: variable "d_b" was declared but never referenced
+
+../src/B03.cu(88): warning: variable "d_c" was declared but never referenced
+
+../src/B03.cu(13): warning: variable "WORK_SIZE" was declared but never referenced
+
+2 errors detected in the compilation of "/var/folders/t5/x8vz05px1hj0msfzyf48xrrh0000gn/T//tmpxft_0000075e_00000000-6_B03.cpp1.ii".
+make: *** [src/B03.o] Error 2
+16:43:01 **** Incremental Build of configuration Debug for project B03 ****
+make all 
+Building file: ../src/B03.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B03.d" "../src/B03.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B03.o" "../src/B03.cu"
+../src/B03.cu(113): error: identifier "prop" is undefined
+
+../src/B03.cu(72): warning: variable "t0" was declared but never referenced
+
+../src/B03.cu(73): warning: variable "t1" was declared but never referenced
+
+../src/B03.cu(88): warning: variable "d_a" was declared but never referenced
+
+../src/B03.cu(88): warning: variable "d_b" was declared but never referenced
+
+../src/B03.cu(88): warning: variable "d_c" was declared but never referenced
+
+../src/B03.cu(13): warning: variable "WORK_SIZE" was declared but never referenced
+
+1 error detected in the compilation of "/var/folders/t5/x8vz05px1hj0msfzyf48xrrh0000gn/T//tmpxft_0000078f_00000000-6_B03.cpp1.ii".
+make: *** [src/B03.o] Error 2
+16:56:18 **** Incremental Build of configuration Debug for project B03 ****
+make all 
+Building file: ../src/B03.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B03.d" "../src/B03.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B03.o" "../src/B03.cu"
+../src/B03.cu(144): error: identifier "gettimeofday" is undefined
+
+../src/B03.cu(147): error: identifier "size" is undefined
+
+../src/B03.cu(147): warning: variable "d_a" is used before its value is set
+
+../src/B03.cu(148): warning: variable "d_b" is used before its value is set
+
+../src/B03.cu(151): error: identifier "add" is undefined
+
+../src/B03.cu(151): error: identifier "THREADS_PER_BLOCK" is undefined
+
+../src/B03.cu(97): warning: variable "threadSize" was set but never used
+
+../src/B03.cu(157): warning: variable "time_spent" was declared but never referenced
+
+../src/B03.cu(13): warning: variable "WORK_SIZE" was declared but never referenced
+
+4 errors detected in the compilation of "/var/folders/t5/x8vz05px1hj0msfzyf48xrrh0000gn/T//tmpxft_0000082d_00000000-6_B03.cpp1.ii".
+make: *** [src/B03.o] Error 2
+16:56:39 **** Incremental Build of configuration Debug for project B03 ****
+make all 
+Building file: ../src/B03.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B03.d" "../src/B03.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B03.o" "../src/B03.cu"
+../src/B03.cu(148): error: identifier "size" is undefined
+
+../src/B03.cu(148): warning: variable "d_a" is used before its value is set
+
+../src/B03.cu(149): warning: variable "d_b" is used before its value is set
+
+../src/B03.cu(152): error: identifier "add" is undefined
+
+../src/B03.cu(152): error: identifier "THREADS_PER_BLOCK" is undefined
+
+../src/B03.cu(98): warning: variable "threadSize" was set but never used
+
+../src/B03.cu(158): warning: variable "time_spent" was declared but never referenced
+
+../src/B03.cu(14): warning: variable "WORK_SIZE" was declared but never referenced
+
+3 errors detected in the compilation of "/var/folders/t5/x8vz05px1hj0msfzyf48xrrh0000gn/T//tmpxft_0000085a_00000000-6_B03.cpp1.ii".
+make: *** [src/B03.o] Error 2
+16:57:38 **** Incremental Build of configuration Debug for project B03 ****
+make all 
+Building file: ../src/B03.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B03.d" "../src/B03.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B03.o" "../src/B03.cu"
+../src/B03.cu(148): warning: variable "d_a" is used before its value is set
+
+../src/B03.cu(149): warning: variable "d_b" is used before its value is set
+
+../src/B03.cu(152): error: identifier "THREADS_PER_BLOCK" is undefined
+
+../src/B03.cu(152): warning: variable "d_c" is used before its value is set
+
+../src/B03.cu(155): error: identifier "size" is undefined
+
+../src/B03.cu(98): warning: variable "threadSize" was set but never used
+
+../src/B03.cu(158): warning: variable "time_spent" was declared but never referenced
+
+../src/B03.cu(14): warning: variable "WORK_SIZE" was declared but never referenced
+
+2 errors detected in the compilation of "/var/folders/t5/x8vz05px1hj0msfzyf48xrrh0000gn/T//tmpxft_00000885_00000000-6_B03.cpp1.ii".
+make: *** [src/B03.o] Error 2
+16:59:10 **** Incremental Build of configuration Debug for project B03 ****
+make all 
+Building file: ../src/B03.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B03.d" "../src/B03.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B03.o" "../src/B03.cu"
+../src/B03.cu(157): error: identifier "THREADS_PER_BLOCK" is undefined
+
+../src/B03.cu(160): error: identifier "size" is undefined
+
+../src/B03.cu(103): warning: variable "threadSize" was set but never used
+
+../src/B03.cu(163): warning: variable "time_spent" was declared but never referenced
+
+../src/B03.cu(14): warning: variable "WORK_SIZE" was declared but never referenced
+
+2 errors detected in the compilation of "/var/folders/t5/x8vz05px1hj0msfzyf48xrrh0000gn/T//tmpxft_000008af_00000000-6_B03.cpp1.ii".
+make: *** [src/B03.o] Error 2
+17:00:07 **** Incremental Build of configuration Debug for project B03 ****
+make all 
+Building file: ../src/B03.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B03.d" "../src/B03.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B03.o" "../src/B03.cu"
+../src/B03.cu(160): error: identifier "size" is undefined
+
+../src/B03.cu(163): warning: variable "time_spent" was declared but never referenced
+
+../src/B03.cu(14): warning: variable "WORK_SIZE" was declared but never referenced
+
+1 error detected in the compilation of "/var/folders/t5/x8vz05px1hj0msfzyf48xrrh0000gn/T//tmpxft_000008db_00000000-6_B03.cpp1.ii".
+make: *** [src/B03.o] Error 2
+17:00:26 **** Incremental Build of configuration Debug for project B03 ****
+make all 
+Building file: ../src/B03.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B03.d" "../src/B03.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B03.o" "../src/B03.cu"
+../src/B03.cu(163): warning: variable "time_spent" was declared but never referenced
+
+../src/B03.cu(14): warning: variable "WORK_SIZE" was declared but never referenced
+
+../src/B03.cu(163): warning: variable "time_spent" was declared but never referenced
+
+../src/B03.cu(14): warning: variable "WORK_SIZE" was declared but never referenced
+
+Finished building: ../src/B03.cu
+ 
+Building target: B03
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B03"  ./src/B03.o   
+Finished building target: B03
+ 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="25" version="2.0">
+<workbench progressCount="26" version="2.0">
 <workbenchAdvisor/>
 <window height="1440" maximized="true" width="2560" x="0" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -36,7 +36,7 @@
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="B01.cu" partName="B01.cu" path="/Users/Mike/cuda-workspace/B01/src/B01.cu" title="B01.cu" tooltip="B01/src/B01.cu" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/B01/src/B01.cu"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1626" selectionTopPixel="264"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3173" selectionTopPixel="810"/>
 </editor>
 </editors>
 <views>
@@ -281,8 +281,38 @@
 <item historyLabel="B01.cu" index="3">
 <position info="not_deleted" x="2055" y="24"/>
 </item>
-<item active="true" historyLabel="B01.cu" index="3">
+<item historyLabel="B01.cu" index="3">
 <position info="not_deleted" x="1457" y="46"/>
+</item>
+<item historyLabel="B01.cu" index="3">
+<position info="not_deleted" x="1834" y="0"/>
+</item>
+<item historyLabel="B01.cu" index="3">
+<position info="not_deleted" x="476" y="7"/>
+</item>
+<item historyLabel="B01.cu" index="3">
+<position info="not_deleted" x="1812" y="22"/>
+</item>
+<item historyLabel="B01.cu" index="3">
+<position info="not_deleted" x="456" y="0"/>
+</item>
+<item historyLabel="B01.cu" index="3">
+<position info="not_deleted" x="2339" y="0"/>
+</item>
+<item historyLabel="B01.cu" index="3">
+<position info="not_deleted" x="2724" y="0"/>
+</item>
+<item historyLabel="B01.cu" index="3">
+<position info="not_deleted" x="2735" y="0"/>
+</item>
+<item historyLabel="B01.cu" index="3">
+<position info="not_deleted" x="2858" y="0"/>
+</item>
+<item historyLabel="B01.cu" index="3">
+<position info="not_deleted" x="2872" y="0"/>
+</item>
+<item active="true" historyLabel="B01.cu" index="3">
+<position info="not_deleted" x="3017" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
