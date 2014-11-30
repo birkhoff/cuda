@@ -19,6 +19,8 @@
 		<item value="135" key="y"/>
 		<item value="1077" key="x"/>
 	</section>
+	<section name="RenameInformationPopup">
+	</section>
 	<section name="NewClassWizardPage">
 		<item value="true" key="stubSelected1"/>
 		<item value="false" key="testFileSelected"/>
@@ -28,6 +30,12 @@
 		<item value="false" key="stubInline0"/>
 		<item value="true" key="stubSelected0"/>
 		<item value="" key="namespace"/>
+	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration.internal">
+		<item value="700" key="size.width"/>
+		<item value="180" key="size.height"/>
+	</section>
+	<section name="CRenameRefactoringInputPage">
 	</section>
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
 	</section>

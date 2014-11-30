@@ -213,3 +213,42 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/Mike/
 
 !ENTRY org.eclipse.cdt.debug.core 4 105 2014-11-09 20:02:38.102
 !MESSAGE A program file was not specified in the launch configuration.
+!SESSION 2014-11-24 20:12:30.672 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/Mike/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/Mike/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-11-24 20:12:44.525
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2014-11-30 10:35:26.089 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/Mike/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/Mike/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-11-30 10:35:38.309
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-11-30 10:39:09.235
+!MESSAGE Indexed 'B04' (1 sources, 55 headers) in 0.94 sec: 1,347 declarations; 1,776 references; 0 unresolved inclusions; 6 syntax errors; 37 unresolved names (1.17%)
+
+!ENTRY org.eclipse.cdt.debug.core 4 105 2014-11-30 11:21:49.345
+!MESSAGE A program file was not specified in the launch configuration.
+
+!ENTRY org.eclipse.cdt.debug.core 4 105 2014-11-30 11:39:45.115
+!MESSAGE A program file was not specified in the launch configuration.
+!SESSION 2014-11-30 18:58:40.205 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/Mike/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/Mike/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-11-30 18:58:55.331
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
