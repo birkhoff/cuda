@@ -3,26 +3,26 @@
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="291" key="DIALOG_WIDTH"/>
 		<item value="442" key="DIALOG_Y_ORIGIN"/>
-		<item value="417" key="DIALOG_HEIGHT"/>
 		<item value="1135" key="DIALOG_X_ORIGIN"/>
+		<item value="417" key="DIALOG_HEIGHT"/>
 		<item value="1|.Helvetica Neue DeskInterface|13.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="isRegEx"/>
 		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="res" key="selection"/>
+		<item value="obj2" key="selection"/>
 		<list key="findhistory">
-			<item value="res"/>
-			<item value="a"/>
-			<item value="bitrev"/>
-			<item value="blocks"/>
-			<item value="malloc"/>
-			<item value="threads_per"/>
-			<item value="d_a"/>
-			<item value="null"/>
+			<item value="OBJ2"/>
+			<item value="translate"/>
+			<item value="light"/>
+			<item value="obj"/>
+			<item value="draw"/>
+			<item value="scale"/>
+			<item value="facet"/>
+			<item value="load"/>
 		</list>
 		<list key="replacehistory">
 		</list>
