@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="22" version="2.0">
+<workbench progressCount="25" version="2.0">
 <workbenchAdvisor/>
 <window height="1344" maximized="true" width="2459" x="-3" y="23">
 <fastViewData fastViewLocation="1024"/>
@@ -31,18 +31,24 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.internal.EditorStack@8d1640f" ratio="0.49976203" ratioLeft="1050" ratioRight="1051" relationship="2" relative="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="B04.cu" partName="B04.cu" path="/Users/Mike/cuda-workspace/B04/src/B04.cu" title="B04.cu" tooltip="B04/src/B04.cu" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/B04/src/B04.cu"/>
-<editorState selectionHorizontalPixel="0" selectionLength="1" selectionOffset="3456" selectionTopPixel="960"/>
-</editor>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="B06.cu" partName="B06.cu" path="/Users/Mike/cuda-workspace/B06/src/B06.cu" title="B06.cu" tooltip="B06/src/B06.cu" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/B06/src/B06.cu"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3415" selectionTopPixel="2051"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1906" selectionTopPixel="420"/>
+</editor>
+<editor focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="B04.cu" partName="B04.cu" path="/Users/Mike/cuda-workspace/B04/src/B04.cu" title="B04.cu" tooltip="B04/src/B04.cu" workbook="org.eclipse.ui.internal.EditorStack@8d1640f">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/B04/src/B04.cu"/>
+<editorState selectionHorizontalPixel="0" selectionLength="1" selectionOffset="3456" selectionTopPixel="675"/>
 </editor>
 </editors>
 <views>
@@ -52,23 +58,14 @@
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
 <viewState/>
 </view>
-<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
-<viewState isPinned="false">
-<view IMemento.internal.id="org.eclipse.cdt.ui.pdomSearchViewPage" definitionColumnWidth="150" locationColumnWidth="300" matchColumnWidth="300" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" showEnclosingDefinitions="true"/>
-<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
-</viewState>
+<view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target">
+<viewState/>
 </view>
 <view id="com.nvidia.viper.analysisview" partName="Analysis">
 <viewState/>
 </view>
-<view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target">
-<viewState/>
-</view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (8 items)"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="105" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -154,7 +151,6 @@
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
 <view id="com.nvidia.viper.analysisview"/>
-<view id="org.eclipse.search.ui.views.SearchView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.cdt.make.ui.views.MakeView"/>
 <fastViewBars/>
@@ -186,14 +182,13 @@
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="com.nvidia.viper.analysisview" label="Analysis"/>
-<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
-<part id="5"/>
 </presentation>
 </folder>
 </info>
@@ -216,57 +211,12 @@
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/B04/src/B04.cu"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/B03/src/B03.cu"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/B03/src/B03.cu"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/B06/src/B06.cu"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" path="/B06/Debug/src/B06.o"/>
 <editor factoryID="com.nvidia.viper.ide.editorInputFactory" id="com.nvidia.viper.sessioneditor" isRemote="false" launchConfiguration="B06 Debug"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" path="/B06/Debug/src/B06.o"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/B04/src/B04.cu"/>
 </editors>
-<item historyLabel="B04.cu" index="0">
-<position info="not_deleted" x="2550" y="0"/>
-</item>
-<item historyLabel="B03.cu" index="1">
-<position info="not_deleted" x="2651" y="6"/>
-</item>
-<item historyLabel="B04.cu" index="0">
-<position info="not_deleted" x="2831" y="0"/>
-</item>
-<item historyLabel="B04.cu" index="0">
-<position info="not_deleted" x="2701" y="0"/>
-</item>
-<item historyLabel="B04.cu" index="0">
-<position info="not_deleted" x="2830" y="0"/>
-</item>
-<item historyLabel="B04.cu" index="0">
-<position info="not_deleted" x="2576" y="0"/>
-</item>
-<item historyLabel="B03.cu" index="1">
-<position info="not_deleted" x="4263" y="40"/>
-</item>
-<item historyLabel="B04.cu" index="0">
-<position info="not_deleted" x="2495" y="0"/>
-</item>
-<item historyLabel="B04.cu" index="0">
-<position info="not_deleted" x="2723" y="0"/>
-</item>
-<item historyLabel="B04.cu" index="0">
-<position info="not_deleted" x="2766" y="64"/>
-</item>
-<item historyLabel="B04.cu" index="0">
-<position info="not_deleted" x="2442" y="0"/>
-</item>
-<item historyLabel="B04.cu" index="0">
-<position info="not_deleted" x="2409" y="0"/>
-</item>
-<item historyLabel="B04.cu" index="0">
-<position info="not_deleted" x="2432" y="0"/>
-</item>
-<item historyLabel="B04.cu" index="0">
-<position info="not_deleted" x="2414" y="41"/>
-</item>
-<item historyLabel="B04.cu" index="0">
-<position info="not_deleted" x="437" y="33"/>
-</item>
 <item historyLabel="B04.cu" index="0">
 <position info="not_deleted" x="1600" y="0"/>
 </item>
@@ -285,13 +235,13 @@
 <item historyLabel="B04.cu" index="0">
 <position info="not_deleted" x="1124" y="0"/>
 </item>
-<item historyLabel="B03.cu" index="2">
+<item historyLabel="B03.cu" index="1">
 <position info="not_deleted" x="4012" y="67"/>
 </item>
 <item historyLabel="B04.cu" index="0">
 <position info="not_deleted" x="3348" y="0"/>
 </item>
-<item historyLabel="B03.cu" index="2">
+<item historyLabel="B03.cu" index="1">
 <position info="not_deleted" x="4414" y="67"/>
 </item>
 <item historyLabel="B04.cu" index="0">
@@ -303,71 +253,116 @@
 <item historyLabel="B04.cu" index="0">
 <position info="not_deleted" x="3201" y="0"/>
 </item>
-<item historyLabel="B06.cu" index="3">
+<item historyLabel="B06.cu" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="B06.cu" index="3">
+<item historyLabel="B06.cu" index="2">
 <position info="not_deleted" x="1170" y="0"/>
 </item>
-<item historyLabel="B06.cu" index="3">
+<item historyLabel="B06.cu" index="2">
 <position info="not_deleted" x="447" y="0"/>
 </item>
-<item historyLabel="B06.cu" index="3">
+<item historyLabel="B06.cu" index="2">
 <position info="not_deleted" x="436" y="0"/>
 </item>
-<item historyLabel="B06.cu" index="3">
+<item historyLabel="B06.cu" index="2">
 <position/>
 </item>
-<item historyLabel="B06.o" index="4">
+<item historyLabel="B06.o" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="B04.cu" index="0">
 <position info="not_deleted" x="3456" y="1"/>
 </item>
-<item historyLabel="B06.cu" index="3">
+<item historyLabel="B06.cu" index="2">
 <position/>
 </item>
-<item historyLabel="B06.cu" index="3">
+<item historyLabel="B06.cu" index="2">
 <position/>
 </item>
-<item historyLabel="B06.cu" index="3">
+<item historyLabel="B06.cu" index="2">
 <position/>
 </item>
-<item historyLabel="B06.cu" index="3">
+<item historyLabel="B06.cu" index="2">
 <position/>
 </item>
-<item historyLabel="B06.cu" index="3">
+<item historyLabel="B06.cu" index="2">
 <position/>
 </item>
-<item historyLabel="B06.cu" index="3">
+<item historyLabel="B06.cu" index="2">
 <position/>
 </item>
-<item historyLabel="B06.cu" index="3">
+<item historyLabel="B06.cu" index="2">
 <position info="not_deleted" x="10214" y="0"/>
 </item>
-<item historyLabel="B06.cu" index="3">
+<item historyLabel="B06.cu" index="2">
 <position/>
 </item>
-<item historyLabel="B06 Debug" index="5"/>
-<item historyLabel="B06.cu" index="3">
+<item historyLabel="B06 Debug" index="4"/>
+<item historyLabel="B06.cu" index="2">
 <position/>
 </item>
-<item historyLabel="B06.o" index="6">
+<item historyLabel="B06.o" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="B06.cu" index="3">
+<item historyLabel="B06.cu" index="2">
 <position/>
 </item>
-<item historyLabel="B06.cu" index="3">
+<item historyLabel="B06.cu" index="2">
 <position/>
 </item>
-<item historyLabel="B06.cu" index="3">
+<item historyLabel="B06.cu" index="2">
 <position/>
 </item>
-<item historyLabel="B06.cu" index="3">
+<item historyLabel="B06.cu" index="2">
 <position info="not_deleted" x="856" y="0"/>
 </item>
-<item active="true" historyLabel="B06.cu" index="3">
+<item historyLabel="B06.cu" index="2">
+<position/>
+</item>
+<item historyLabel="B04.cu" index="6">
+<position info="not_deleted" x="3456" y="1"/>
+</item>
+<item historyLabel="B06.cu" index="2">
+<position info="not_deleted" x="5155" y="149"/>
+</item>
+<item historyLabel="B06.cu" index="2">
+<position info="not_deleted" x="3632" y="0"/>
+</item>
+<item historyLabel="B06.cu" index="2">
+<position info="not_deleted" x="3731" y="40"/>
+</item>
+<item historyLabel="B06.cu" index="2">
+<position info="not_deleted" x="5457" y="0"/>
+</item>
+<item historyLabel="B06.cu" index="2">
+<position info="not_deleted" x="5305" y="0"/>
+</item>
+<item historyLabel="B06.cu" index="2">
+<position/>
+</item>
+<item historyLabel="B06.cu" index="2">
+<position info="not_deleted" x="1774" y="89"/>
+</item>
+<item historyLabel="B06.cu" index="2">
+<position info="not_deleted" x="1770" y="0"/>
+</item>
+<item historyLabel="B06.cu" index="2">
+<position info="not_deleted" x="1774" y="89"/>
+</item>
+<item historyLabel="B06.cu" index="2">
+<position info="not_deleted" x="4079" y="0"/>
+</item>
+<item historyLabel="B06.cu" index="2">
+<position/>
+</item>
+<item historyLabel="B06.cu" index="2">
+<position/>
+</item>
+<item historyLabel="B06.cu" index="2">
+<position info="not_deleted" x="1884" y="0"/>
+</item>
+<item active="true" historyLabel="B06.cu" index="2">
 <position/>
 </item>
 </navigationHistory>
