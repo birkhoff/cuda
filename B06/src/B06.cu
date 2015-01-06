@@ -52,6 +52,9 @@ float mesh_z = -0.5;
 float f_x = 0;
 float f_z = 0;
 
+float rotation_speed = 0.0f;			// rotating mesh
+float offset 		= 0.0f;				// offset of texture
+
 //unsigned int image[image_width][image_height];
 
 // Starting position and scale
@@ -144,7 +147,7 @@ ObjMesh mesh;
 
 
 
-__global__ void mandelbrot(uchar4* d_image, int image_width, int image_height, int off) // TODO image size
+__global__ void mandelbrot(uchar4* d_image, int image_width, int image_height, float off) // TODO image size
 {
 
 	unsigned long i = blockIdx.x*blockDim.x+threadIdx.x;
@@ -155,8 +158,8 @@ __global__ void mandelbrot(uchar4* d_image, int image_width, int image_height, i
 		unsigned long y = 	i/(unsigned long)image_width;
 		unsigned long x =	i % image_width;
 
-		double c_real = -2.0 + 4.0/image_width  * x;
-		double c_imag = -2.0 + 4.0/image_height * y;
+		double c_real = -2.0 + 4.0/image_width  * (x / off);
+		double c_imag = -2.0 + 4.0/image_height * (y / off);
 
 		int max;
 		int count;
@@ -172,9 +175,9 @@ __global__ void mandelbrot(uchar4* d_image, int image_width, int image_height, i
 		} while ((lengthsq < 4.0) && (count < max));
 
 		uchar4 color;
-		color.x = count * 3+(off/1000);
-		color.y = count * 5+(off/1000);
-		color.z = count * 7+(off/1000);
+		color.x = count * 3;
+		color.y = count * 5;
+		color.z = count * 7;
 		d_image[x+y*image_width] = color;
 
 		__syncthreads();
@@ -191,7 +194,8 @@ void runCUDA(bool bUseOpenGL, bool fp64, int mode)
 	size_t num_bytes;
 	cudaGraphicsResourceGetMappedPointer((void **)&d_dst, &num_bytes, cuda_pbo_resource);
 
-	mandelbrot<<<BLOCKS,THREADS_PER_BLOCK>>>(d_dst, image_width, image_height, angle);
+	float real_off = (1.3+sin(offset));
+	mandelbrot<<<BLOCKS,THREADS_PER_BLOCK>>>(d_dst, image_width, image_height, real_off);
 	cudaGraphicsUnmapResources(1, &cuda_pbo_resource, 0);
 
 
@@ -388,8 +392,10 @@ void drawMesh()
 
 
     glPopMatrix();
-    angle=angle+0.6;
+    angle=angle+rotation_speed;
+    offset = offset + 0.01;
     if(angle>360)angle=angle-360;
+    if(offset>6.28) offset = 0;
 }
 
 
@@ -434,6 +440,13 @@ void processNormalKeys(unsigned char key, int x, int y) {
 
 	if (key == 27)
 		exit(0);
+	else if (key=='r') {
+
+			if (rotation_speed == 0)
+				rotation_speed = 0.6;
+			else
+				rotation_speed = 0.0;
+	}
 }
 
 
@@ -555,6 +568,9 @@ int main(int argc, char **argv) {
 
 	glEnable(GL_LIGHTING);
 	glEnable(GL_LIGHT0);
+
+	glDisable(GL_CULL_FACE);
+
 
 	// register callbacks
 	//glutDisplayFunc(renderScene);

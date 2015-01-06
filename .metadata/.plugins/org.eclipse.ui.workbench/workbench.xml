@@ -46,15 +46,15 @@
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="B06.cu" partName="B06.cu" path="/Users/Mike/cuda-workspace/B06/src/B06.cu" title="B06.cu" tooltip="B06/src/B06.cu" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/B06/src/B06.cu"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6404" selectionTopPixel="4098"/>
+<editorState selectionHorizontalPixel="0" selectionLength="4" selectionOffset="14732" selectionTopPixel="1695"/>
 </editor>
-<editor focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="B04.cu" partName="B04.cu" path="/Users/Mike/cuda-workspace/B04/src/B04.cu" title="B04.cu" tooltip="B04/src/B04.cu" workbook="org.eclipse.ui.internal.EditorStack@8d1640f">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="B04.cu" partName="B04.cu" path="/Users/Mike/cuda-workspace/B04/src/B04.cu" title="B04.cu" tooltip="B04/src/B04.cu" workbook="org.eclipse.ui.internal.EditorStack@8d1640f">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/B04/src/B04.cu"/>
-<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="2445" selectionTopPixel="960"/>
+<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="2445" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="B03.cu" partName="B03.cu" path="/Users/Mike/cuda-workspace/B03/src/B03.cu" title="B03.cu" tooltip="B03/src/B03.cu" workbook="org.eclipse.ui.internal.EditorStack@8d1640f">
+<editor focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="B03.cu" partName="B03.cu" path="/Users/Mike/cuda-workspace/B03/src/B03.cu" title="B03.cu" tooltip="B03/src/B03.cu" workbook="org.eclipse.ui.internal.EditorStack@8d1640f">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/B03/src/B03.cu"/>
-<editorState selectionHorizontalPixel="0" selectionLength="49" selectionOffset="2817" selectionTopPixel="1284"/>
+<editorState selectionHorizontalPixel="0" selectionLength="49" selectionOffset="2817" selectionTopPixel="88"/>
 </editor>
 </editors>
 <views>
@@ -79,7 +79,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (7 items)"/>
+<category IMemento.internal.id="Warnings (2 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="105" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -232,31 +232,8 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/B03/src/B03.cu"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/B06/src/obj.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/B06/src/obj.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/B03/src/B03.cu"/>
 </editors>
-<item historyLabel="B06.cu" index="0">
-<position info="not_deleted" x="1884" y="0"/>
-</item>
-<item historyLabel="B06.cu" index="0">
-<position/>
-</item>
-<item historyLabel="B06.cu" index="0">
-<position info="not_deleted" x="2338" y="0"/>
-</item>
-<item historyLabel="B06.cu" index="0">
-<position/>
-</item>
-<item historyLabel="B04.cu" index="1">
-<position info="not_deleted" x="3217" y="24"/>
-</item>
-<item historyLabel="B06.cu" index="0">
-<position info="not_deleted" x="2418" y="0"/>
-</item>
-<item historyLabel="B04.cu" index="1">
-<position info="not_deleted" x="1688" y="691"/>
-</item>
-<item historyLabel="B06.cu" index="0">
-<position info="not_deleted" x="7385" y="0"/>
-</item>
 <item historyLabel="B04.cu" index="1">
 <position info="not_deleted" x="2331" y="7"/>
 </item>
@@ -380,8 +357,32 @@
 <item historyLabel="obj.c" index="5">
 <position info="not_deleted" x="163" y="7"/>
 </item>
-<item active="true" historyLabel="B06.cu" index="0">
+<item historyLabel="B06.cu" index="0">
 <position/>
+</item>
+<item historyLabel="B06.cu" index="0">
+<position/>
+</item>
+<item historyLabel="B06.cu" index="0">
+<position info="not_deleted" x="11001" y="39"/>
+</item>
+<item historyLabel="B06.cu" index="0">
+<position info="not_deleted" x="3583" y="0"/>
+</item>
+<item historyLabel="B06.cu" index="0">
+<position info="not_deleted" x="3729" y="0"/>
+</item>
+<item historyLabel="B06.cu" index="0">
+<position info="not_deleted" x="3610" y="0"/>
+</item>
+<item historyLabel="B06.cu" index="0">
+<position/>
+</item>
+<item historyLabel="B03.cu" index="6">
+<position info="not_deleted" x="2817" y="49"/>
+</item>
+<item active="true" historyLabel="B06.cu" index="0">
+<position info="not_deleted" x="3686" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>

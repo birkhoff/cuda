@@ -9502,3 +9502,663 @@ Invoking: NVCC Linker
 /Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
 Finished building target: B06
  
+17:50:30 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+make: Nothing to be done for `all'.
+17:51:30 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+17:51:52 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+17:52:28 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+17:54:10 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+17:55:22 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+17:57:33 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+17:58:00 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+make: Nothing to be done for `all'.
+17:58:47 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+18:00:52 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+18:01:10 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+18:01:36 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+18:01:54 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+18:03:22 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+../src/B06.cu(158): warning: a host variable "angle" cannot be directly read in a device function
+
+../src/B06.cu(159): warning: a host variable "angle" cannot be directly read in a device function
+
+../src/B06.cu(158): error: identifier "angle" is undefined in device code
+
+1 error detected in the compilation of "/var/folders/t5/x8vz05px1hj0msfzyf48xrrh0000gn/T//tmpxft_000031f7_00000000-7_B06.cpp2.i".
+make: *** [src/B06.o] Error 2
+18:04:24 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+18:04:56 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+18:07:04 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+18:08:33 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+18:09:15 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+18:10:56 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+18:13:22 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+18:17:40 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+18:20:54 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+../src/B06.cu(432): error: identifier "GLUT_KEY_SPACE" is undefined
+
+1 error detected in the compilation of "/var/folders/t5/x8vz05px1hj0msfzyf48xrrh0000gn/T//tmpxft_0000359e_00000000-6_B06.cpp1.ii".
+make: *** [src/B06.o] Error 2
+18:23:26 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+../src/B06.cu(444): error: identifier "red" is undefined
+
+../src/B06.cu(450): error: expected a ";"
+
+../src/B06.cu(480): warning: parsing restarts here after previous syntax error
+
+../src/B06.cu(481): error: identifier "str_stream" is undefined
+
+../src/B06.cu(481): error: identifier "tex" is undefined
+
+../src/B06.cu(482): error: identifier "texcoords" is undefined
+
+../src/B06.cu(483): error: expected a declaration
+
+../src/B06.cu(499): warning: parsing restarts here after previous syntax error
+
+../src/B06.cu(501): error: expected a declaration
+
+../src/B06.cu(511): warning: parsing restarts here after previous syntax error
+
+../src/B06.cu(512): error: expected a declaration
+
+../src/B06.cu(541): warning: parsing restarts here after previous syntax error
+
+../src/B06.cu(547): error: this declaration has no storage class or type specifier
+
+../src/B06.cu(547): error: declaration is incompatible with "void glutInit(int *, char **)"
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h(431): here
+
+../src/B06.cu(547): error: identifier "argc" is undefined
+
+../src/B06.cu(547): error: expected a ")"
+
+../src/B06.cu(548): error: this declaration has no storage class or type specifier
+
+../src/B06.cu(548): error: declaration is incompatible with "void glutInitDisplayMode(unsigned int)"
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h(432): here
+
+../src/B06.cu(549): error: this declaration has no storage class or type specifier
+
+../src/B06.cu(549): error: declaration is incompatible with "void glutInitWindowPosition(int, int)"
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h(436): here
+
+../src/B06.cu(549): error: expected a ")"
+
+../src/B06.cu(550): error: this declaration has no storage class or type specifier
+
+../src/B06.cu(550): error: declaration is incompatible with "void glutInitWindowSize(int, int)"
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h(437): here
+
+../src/B06.cu(550): error: expected a ")"
+
+../src/B06.cu(551): error: this declaration has no storage class or type specifier
+
+../src/B06.cu(551): error: declaration is incompatible with "int glutCreateWindow(const char *)"
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h(441): here
+
+../src/B06.cu(551): error: a value of type "const char *" cannot be used to initialize an entity of type "int"
+
+../src/B06.cu(559): error: this declaration has no storage class or type specifier
+
+../src/B06.cu(559): error: declaration is incompatible with "void glLightfv(GLenum, GLenum, const GLfloat *)"
+/System/Library/Frameworks/OpenGL.framework/Headers/gl.h(2562): here
+
+../src/B06.cu(559): error: expected a ")"
+
+../src/B06.cu(560): error: this declaration has no storage class or type specifier
+
+../src/B06.cu(560): error: variable "glLightfv" has already been defined
+
+../src/B06.cu(560): error: expected a ")"
+
+../src/B06.cu(561): error: this declaration has no storage class or type specifier
+
+../src/B06.cu(561): error: variable "glLightfv" has already been defined
+
+../src/B06.cu(561): error: expected a ")"
+
+../src/B06.cu(562): error: this declaration has no storage class or type specifier
+
+../src/B06.cu(562): error: variable "glLightfv" has already been defined
+
+../src/B06.cu(562): error: expected a ")"
+
+../src/B06.cu(564): error: this declaration has no storage class or type specifier
+
+../src/B06.cu(564): error: declaration is incompatible with "void glEnable(GLenum)"
+/System/Library/Frameworks/OpenGL.framework/Headers/gl.h(2469): here
+
+../src/B06.cu(565): error: this declaration has no storage class or type specifier
+
+../src/B06.cu(565): error: variable "glEnable" has already been defined
+
+../src/B06.cu(567): error: this declaration has no storage class or type specifier
+
+../src/B06.cu(567): error: declaration is incompatible with "void glDisable(GLenum)"
+/System/Library/Frameworks/OpenGL.framework/Headers/gl.h(2459): here
+
+../src/B06.cu(572): error: this declaration has no storage class or type specifier
+
+../src/B06.cu(572): error: declaration is incompatible with "void glutDisplayFunc(void (*)())"
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h(505): here
+
+../src/B06.cu(572): error: a value of type "void (*)()" cannot be used to initialize an entity of type "int"
+
+../src/B06.cu(573): error: this declaration has no storage class or type specifier
+
+../src/B06.cu(573): error: declaration is incompatible with "void glutReshapeFunc(void (*)(int, int))"
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h(506): here
+
+../src/B06.cu(573): error: a value of type "void (*)(int, int)" cannot be used to initialize an entity of type "int"
+
+../src/B06.cu(578): error: this declaration has no storage class or type specifier
+
+../src/B06.cu(578): error: declaration is incompatible with "void glutIdleFunc(void (*)())"
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h(513): here
+
+../src/B06.cu(578): error: a value of type "void (*)()" cannot be used to initialize an entity of type "int"
+
+../src/B06.cu(580): error: this declaration has no storage class or type specifier
+
+../src/B06.cu(580): error: variable "mesh" has already been defined
+
+../src/B06.cu(580): error: identifier "LoadObjMesh" is undefined
+
+../src/B06.cu(583): error: this declaration has no storage class or type specifier
+
+../src/B06.cu(583): error: declaration is incompatible with "void glutKeyboardFunc(void (*)(unsigned char, int, int))"
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h(507): here
+
+../src/B06.cu(583): error: a value of type "void (*)(unsigned char, int, int)" cannot be used to initialize an entity of type "int"
+
+../src/B06.cu(584): error: this declaration has no storage class or type specifier
+
+../src/B06.cu(584): error: declaration is incompatible with "void glutSpecialFunc(void (*)(int, int, int))"
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h(517): here
+
+../src/B06.cu(584): error: a value of type "void (*)(int, int, int)" cannot be used to initialize an entity of type "int"
+
+../src/B06.cu(585): error: this declaration has no storage class or type specifier
+
+../src/B06.cu(585): error: declaration is incompatible with "void glutSpecialUpFunc(void (*)(int, int, int))"
+/System/Library/Frameworks/GLUT.framework/Headers/glut.h(533): here
+
+../src/B06.cu(585): error: a value of type "void (*)(int, int, int)" cannot be used to initialize an entity of type "int"
+
+../src/B06.cu(591): error: explicit type is missing ("int" assumed)
+
+../src/B06.cu(591): error: cannot overload functions distinguished by return type alone
+
+../src/B06.cu(592): error: this declaration has no storage class or type specifier
+
+../src/B06.cu(592): error: declaration is incompatible with "cudaError_t cudaMalloc(void **, size_t)"
+/Developer/NVIDIA/CUDA-6.5/bin/../include/cuda_runtime_api.h(2777): here
+
+../src/B06.cu(592): error: a value of type "void **" cannot be used to initialize an entity of type "int"
+
+../src/B06.cu(592): error: expected a ")"
+
+../src/B06.cu(596): error: explicit type is missing ("int" assumed)
+
+../src/B06.cu(596): error: cannot overload functions distinguished by return type alone
+
+../src/B06.cu(598): error: this declaration has no storage class or type specifier
+
+../src/B06.cu(598): error: declaration is incompatible with "cudaError_t cudaFree(void *)"
+/Developer/NVIDIA/CUDA-6.5/bin/../include/cuda_runtime_api.h(2911): here
+
+../src/B06.cu(598): error: a value of type "uchar4 *" cannot be used to initialize an entity of type "int"
+
+../src/B06.cu(600): error: expected a declaration
+
+../src/B06.cu(601): error: expected a declaration
+
+75 errors detected in the compilation of "/var/folders/t5/x8vz05px1hj0msfzyf48xrrh0000gn/T//tmpxft_000035ce_00000000-6_B06.cpp1.ii".
+make: *** [src/B06.o] Error 2
+18:23:50 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+18:28:04 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+../src/B06.cu(197): error: identifier "offset" is undefined
+
+../src/B06.cu(395): error: identifier "offset" is undefined
+
+2 errors detected in the compilation of "/var/folders/t5/x8vz05px1hj0msfzyf48xrrh0000gn/T//tmpxft_00003656_00000000-6_B06.cpp1.ii".
+make: *** [src/B06.o] Error 2
+18:28:47 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+../src/B06.cu(397): warning: expression has no effect
+
+../src/B06.cu(397): warning: expression has no effect
+
+../src/B06.cu:397:30: warning: expression result unused [-Wunused-value]
+if (offset > (270)) { offset - (180); }
+                      ~~~~~~ ^ ~~~~~
+1 warning generated.
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+18:29:54 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+../src/B06.cu(397): warning: expression has no effect
+
+../src/B06.cu(397): warning: expression has no effect
+
+../src/B06.cu:397:30: warning: expression result unused [-Wunused-value]
+if (offset > (270)) { offset - (180); }
+                      ~~~~~~ ^ ~~~~~
+1 warning generated.
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+18:30:51 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+../src/B06.cu(397): warning: expression has no effect
+
+../src/B06.cu(397): warning: expression has no effect
+
+../src/B06.cu:397:30: warning: expression result unused [-Wunused-value]
+if (offset > (270)) { offset - (180); }
+                      ~~~~~~ ^ ~~~~~
+1 warning generated.
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+18:31:58 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+../src/B06.cu(397): warning: expression has no effect
+
+../src/B06.cu(397): warning: expression has no effect
+
+../src/B06.cu:397:30: warning: expression result unused [-Wunused-value]
+if (offset > (360)) { offset - (360); }
+                      ~~~~~~ ^ ~~~~~
+1 warning generated.
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+18:34:04 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+../src/B06.cu(161): warning: a host variable "offset" cannot be directly read in a device function
+
+../src/B06.cu(161): error: expected a ")"
+
+../src/B06.cu(162): warning: a host variable "offset" cannot be directly read in a device function
+
+../src/B06.cu(162): error: expected a ")"
+
+2 errors detected in the compilation of "/var/folders/t5/x8vz05px1hj0msfzyf48xrrh0000gn/T//tmpxft_000037eb_00000000-6_B06.cpp1.ii".
+make: *** [src/B06.o] Error 2
+18:34:13 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+../src/B06.cu(161): error: expected a ")"
+
+../src/B06.cu(162): error: expected a ")"
+
+2 errors detected in the compilation of "/var/folders/t5/x8vz05px1hj0msfzyf48xrrh0000gn/T//tmpxft_00003815_00000000-6_B06.cpp1.ii".
+make: *** [src/B06.o] Error 2
+18:34:29 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+../src/B06.cu(161) (col. 10): error: calling a __host__ function("std::sin<int> ") from a __global__ function("mandelbrot") is not allowed
+
+../src/B06.cu(162) (col. 10): error: calling a __host__ function("std::sin<int> ") from a __global__ function("mandelbrot") is not allowed
+
+2 errors detected in the compilation of "/var/folders/t5/x8vz05px1hj0msfzyf48xrrh0000gn/T//tmpxft_0000383f_00000000-6_B06.cpp1.ii".
+make: *** [src/B06.o] Error 2
+18:34:51 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
+18:36:59 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+../src/B06.cu(161): error: expected a ";"
+
+../src/B06.cu(162): error: expected a ";"
+
+../src/B06.cu(197): error: identifier "off" is undefined
+
+3 errors detected in the compilation of "/var/folders/t5/x8vz05px1hj0msfzyf48xrrh0000gn/T//tmpxft_000038c5_00000000-6_B06.cpp1.ii".
+make: *** [src/B06.o] Error 2
+18:37:15 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+../src/B06.cu(161): error: expected a ";"
+
+../src/B06.cu(162): error: expected a ";"
+
+2 errors detected in the compilation of "/var/folders/t5/x8vz05px1hj0msfzyf48xrrh0000gn/T//tmpxft_000038ef_00000000-6_B06.cpp1.ii".
+make: *** [src/B06.o] Error 2
+18:37:28 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 
