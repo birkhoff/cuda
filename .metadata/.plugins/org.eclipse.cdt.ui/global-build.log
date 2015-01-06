@@ -9314,3 +9314,16 @@ Invoking: NVCC Linker
 /Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
 Finished building target: B06
  
+15:56:08 **** Incremental Build of configuration Debug for project B06 ****
+make all 
+Building file: ../src/B06.cu
+Invoking: NVCC Compiler
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 -gencode arch=compute_30,code=sm_30  -odir "src" -M -o "src/B06.d" "../src/B06.cu"
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc -G -g -O0 --compile --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30  -x cu -o  "src/B06.o" "../src/B06.cu"
+Finished building: ../src/B06.cu
+ 
+Building target: B06
+Invoking: NVCC Linker
+/Developer/NVIDIA/CUDA-6.5/bin/nvcc --cudart static -L/opt/local/lib/ --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "B06"  ./src/B06.o   -lglut -lGL -lGLU
+Finished building target: B06
+ 

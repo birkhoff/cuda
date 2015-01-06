@@ -1,0 +1,182 @@
+# Blender MTL File: 'Dana_Low_3.blend'
+# Material Count: 19
+
+newmtl Alex_Shirt
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.123710 0.123710 0.123710
+Ks 0.039311 0.039311 0.039311
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Alex_eyeball
+Ns 792.328924
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Users/Mike/iOS/Meshes/Girl_Template/Textures/Dana_Eyeball.png
+map_Ks /Users/Mike/iOS/Meshes/Girl_Template/Textures/Dana_Eyeball.png
+
+newmtl Boots
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.381593 0.145384 0.090525
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl BootsRim
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.242265 0.157719
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Dana_Shorts
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.066486 0.159750 0.288298
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl Dana_Shorts_Fold
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.082328 0.384968 0.868888
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl Dana_Shorts_Top
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.022724 0.032020 0.083532
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl Dana_skin
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.485371 0.298022
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Ka /Users/Mike/iOS/Meshes/Girl_Template/textures/Alex_Ambient.png
+map_Kd /Users/Mike/iOS/Meshes/Girl_Template/textures/Dana_Color.png
+map_Ks /Users/Mike/iOS/Meshes/Girl_Template/textures/Alex_Spec_col.png
+
+newmtl Dana_skin_Alex_Color.png.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.485371 0.298022
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd /Users/Mike/iOS/Meshes/Girl_Template/Textures/Alex_Color.png
+map_Ka /Users/Mike/iOS/Meshes/Girl_Template/textures/Alex_Ambient.png
+map_Ks /Users/Mike/iOS/Meshes/Girl_Template/textures/Alex_Spec_col.png
+
+newmtl Eye_Pupil
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.001032 0.001032 0.001032
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl Hair
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.242559 0.088957 0.027823
+Ks 0.500000 0.227717 0.098525
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Leggins
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.098969 0.098969 0.098969
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl Material
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Material.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.141578 0.329169 1.000000
+Ks 0.119048 0.119048 0.119048
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl None
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+
+newmtl Pullover
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.650007 0.043264 0.035987
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd /Users/Mike/iOS/Meshes/Girl_Template/Dana_Clothes.png
+
+newmtl Shirt
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.469216 0.365609
+Ks 0.200000 0.165723 0.105801
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Users/Mike/iOS/Meshes/Girl_Template/Dana_Clothes.png
+
+newmtl Shoe_white
+Ns 15.686275
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.071429 0.071429 0.071429
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Solace
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.050977 0.021591 0.016440
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
