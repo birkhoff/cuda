@@ -144,10 +144,8 @@ ObjMesh mesh;
 
 
 
-__global__ void mandelbrot(uchar4* d_image, int image_width, int image_height) // TODO image size
+__global__ void mandelbrot(uchar4* d_image, int image_width, int image_height, int off) // TODO image size
 {
-
-
 
 	unsigned long i = blockIdx.x*blockDim.x+threadIdx.x;
 
@@ -164,7 +162,7 @@ __global__ void mandelbrot(uchar4* d_image, int image_width, int image_height) /
 		int count;
 		double z_real;
 		double z_imag; double temp,lengthsq; z_real=z_imag=0.0; count=0;
-		max= 100;
+		max= 255;
 
 		do
 		{
@@ -174,13 +172,12 @@ __global__ void mandelbrot(uchar4* d_image, int image_width, int image_height) /
 		} while ((lengthsq < 4.0) && (count < max));
 
 		uchar4 color;
-		color.x = count * 3;
-		color.y = count * 5;
-		color.z = count * 7;
+		color.x = count * 3+(off/1000);
+		color.y = count * 5+(off/1000);
+		color.z = count * 7+(off/1000);
 		d_image[x+y*image_width] = color;
 
 		__syncthreads();
-
 	}
 }
 
@@ -188,22 +185,13 @@ __global__ void mandelbrot(uchar4* d_image, int image_width, int image_height) /
 void runCUDA(bool bUseOpenGL, bool fp64, int mode)
 {
 
-	//mandelbrot<<<BLOCKS,THREADS_PER_BLOCK>>>(d_image, image_width, image_height);
-	//cudaMemcpy(image, d_image, image_size, cudaMemcpyDeviceToHost);
-	//cudaFree(d_image);
-	//CUDA_CHECK_RETURN(cudaThreadSynchronize());	// Wait for the GPU launched work to complete
-	//CUDA_CHECK_RETURN(cudaGetLastError());
-	// XXX ???
-	//CUDA_CHECK_RETURN(cudaDeviceReset());
-
-
 
 	// DEPRECATED: checkCudaErrors(cudaGLMapBufferObject((void**)&d_dst, gl_PBO));
 	cudaGraphicsMapResources(1, &cuda_pbo_resource, 0);
 	size_t num_bytes;
 	cudaGraphicsResourceGetMappedPointer((void **)&d_dst, &num_bytes, cuda_pbo_resource);
 
-	mandelbrot<<<BLOCKS,THREADS_PER_BLOCK>>>(d_dst, image_width, image_height);
+	mandelbrot<<<BLOCKS,THREADS_PER_BLOCK>>>(d_dst, image_width, image_height, angle);
 	cudaGraphicsUnmapResources(1, &cuda_pbo_resource, 0);
 
 
@@ -589,7 +577,8 @@ int main(int argc, char **argv) {
 	// -----------------------------------------------------------------
 	// CUDA
     // Allocate memory for renderImage (to be able to render into a CUDA memory buffer)
-    cudaMalloc((void **)&d_dst, (image_width * image_height * sizeof(uchar4)));
+	cudaDeviceReset();
+	cudaMalloc((void **)&d_dst, (image_width * image_height * sizeof(uchar4)));
 
 
 	// enter GLUT event processing loop
