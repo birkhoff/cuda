@@ -32,6 +32,8 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
@@ -46,7 +48,15 @@
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="B06.cu" partName="B06.cu" path="/Users/Mike/cuda-workspace/B06/src/B06.cu" title="B06.cu" tooltip="B06/src/B06.cu" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/B06/src/B06.cu"/>
-<editorState selectionHorizontalPixel="0" selectionLength="4" selectionOffset="14732" selectionTopPixel="1695"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8426" selectionTopPixel="4560"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="mesh_handler.cpp" partName="mesh_handler.cpp" path="/Users/Mike/cuda-workspace/B06/src/mesh_handler.cpp" title="mesh_handler.cpp" tooltip="B06/src/mesh_handler.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/B06/src/mesh_handler.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4404" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="mesh_handler.h" partName="mesh_handler.h" path="/Users/Mike/cuda-workspace/B06/src/mesh_handler.h" title="mesh_handler.h" tooltip="B06/src/mesh_handler.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/B06/src/mesh_handler.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="379" selectionTopPixel="135"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="B04.cu" partName="B04.cu" path="/Users/Mike/cuda-workspace/B04/src/B04.cu" title="B04.cu" tooltip="B04/src/B04.cu" workbook="org.eclipse.ui.internal.EditorStack@8d1640f">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/B04/src/B04.cu"/>
@@ -54,7 +64,7 @@
 </editor>
 <editor focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="B03.cu" partName="B03.cu" path="/Users/Mike/cuda-workspace/B03/src/B03.cu" title="B03.cu" tooltip="B03/src/B03.cu" workbook="org.eclipse.ui.internal.EditorStack@8d1640f">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/B03/src/B03.cu"/>
-<editorState selectionHorizontalPixel="0" selectionLength="49" selectionOffset="2817" selectionTopPixel="88"/>
+<editorState selectionHorizontalPixel="0" selectionLength="49" selectionOffset="2817" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -108,7 +118,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.eclipse.cdt.ui.CPerspective">
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.cdt.ui.CPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.cdt.internal.ui.CPerspectiveFactory" id="org.eclipse.cdt.ui.CPerspective" label="C/C++"/>
 <alwaysOnActionSet id="com.nvidia.cuda.ide.remote.targetsAndBuildConfigurations"/>
@@ -228,88 +238,27 @@
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/B06/src/B06.cu"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/B04/src/B04.cu"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/B03/src/B03"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/B03/src/B03.cu"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/B06/src/obj.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/B06/src/obj.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/B03/src/B03.cu"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Christian/src/Christian.cu"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/B06/src/mesh_handler.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/B06/src/mesh_handler.h"/>
 </editors>
-<item historyLabel="B04.cu" index="1">
-<position info="not_deleted" x="2331" y="7"/>
-</item>
-<item historyLabel="B06.cu" index="0">
-<position info="not_deleted" x="2400" y="0"/>
-</item>
-<item historyLabel="B04.cu" index="1">
-<position info="not_deleted" x="1219" y="16"/>
-</item>
-<item historyLabel="B06.cu" index="0">
-<position info="not_deleted" x="1165" y="0"/>
-</item>
-<item historyLabel="B03" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="B03.cu" index="3">
-<position info="not_deleted" x="4" y="0"/>
-</item>
-<item historyLabel="B06.cu" index="0">
-<position info="not_deleted" x="1071" y="0"/>
-</item>
-<item historyLabel="B06.cu" index="0">
-<position info="not_deleted" x="1014" y="0"/>
-</item>
-<item historyLabel="B03.cu" index="3">
-<position info="not_deleted" x="657" y="6"/>
-</item>
-<item historyLabel="B06.cu" index="0">
-<position info="not_deleted" x="1015" y="0"/>
-</item>
-<item historyLabel="B06.cu" index="0">
-<position info="not_deleted" x="1011" y="0"/>
-</item>
-<item historyLabel="B06.cu" index="0">
-<position info="not_deleted" x="6684" y="0"/>
-</item>
-<item historyLabel="B03.cu" index="3">
-<position info="not_deleted" x="4276" y="12"/>
-</item>
-<item historyLabel="B06.cu" index="0">
-<position/>
-</item>
-<item historyLabel="B03.cu" index="3">
-<position info="not_deleted" x="4013" y="66"/>
-</item>
-<item historyLabel="B06.cu" index="0">
-<position info="not_deleted" x="2121" y="0"/>
-</item>
-<item historyLabel="B03.cu" index="3">
-<position info="not_deleted" x="4013" y="66"/>
-</item>
-<item historyLabel="B04.cu" index="1">
-<position info="not_deleted" x="1126" y="52"/>
-</item>
-<item historyLabel="B06.cu" index="0">
-<position info="not_deleted" x="1828" y="0"/>
-</item>
-<item historyLabel="B04.cu" index="1">
-<position info="not_deleted" x="3124" y="75"/>
-</item>
-<item historyLabel="B06.cu" index="0">
-<position info="not_deleted" x="2378" y="0"/>
-</item>
 <item historyLabel="B04.cu" index="1">
 <position info="not_deleted" x="3271" y="77"/>
 </item>
 <item historyLabel="B06.cu" index="0">
 <position info="not_deleted" x="1722" y="0"/>
 </item>
-<item historyLabel="B03.cu" index="3">
+<item historyLabel="B03.cu" index="2">
 <position info="not_deleted" x="4013" y="66"/>
 </item>
 <item historyLabel="B06.cu" index="0">
 <position info="not_deleted" x="2444" y="0"/>
 </item>
-<item historyLabel="B03.cu" index="3">
+<item historyLabel="B03.cu" index="2">
 <position info="not_deleted" x="2817" y="49"/>
 </item>
 <item historyLabel="B06.cu" index="0">
@@ -345,16 +294,16 @@
 <item historyLabel="B06.cu" index="0">
 <position info="not_deleted" x="2338" y="0"/>
 </item>
-<item historyLabel="obj.h" index="4">
+<item historyLabel="obj.h" index="3">
 <position info="not_deleted" x="908" y="16"/>
 </item>
 <item historyLabel="B06.cu" index="0">
 <position/>
 </item>
-<item historyLabel="obj.h" index="4">
+<item historyLabel="obj.h" index="3">
 <position info="not_deleted" x="908" y="16"/>
 </item>
-<item historyLabel="obj.c" index="5">
+<item historyLabel="obj.c" index="4">
 <position info="not_deleted" x="163" y="7"/>
 </item>
 <item historyLabel="B06.cu" index="0">
@@ -378,11 +327,74 @@
 <item historyLabel="B06.cu" index="0">
 <position/>
 </item>
-<item historyLabel="B03.cu" index="6">
+<item historyLabel="B03.cu" index="5">
 <position info="not_deleted" x="2817" y="49"/>
 </item>
-<item active="true" historyLabel="B06.cu" index="0">
+<item historyLabel="B06.cu" index="0">
 <position info="not_deleted" x="3686" y="0"/>
+</item>
+<item historyLabel="B06.cu" index="0">
+<position/>
+</item>
+<item historyLabel="B06.cu" index="0">
+<position info="not_deleted" x="3230" y="54"/>
+</item>
+<item historyLabel="B06.cu" index="0">
+<position info="not_deleted" x="3340" y="0"/>
+</item>
+<item historyLabel="B06.cu" index="0">
+<position info="not_deleted" x="3230" y="54"/>
+</item>
+<item historyLabel="B06.cu" index="0">
+<position info="not_deleted" x="4118" y="35"/>
+</item>
+<item historyLabel="B06.cu" index="0">
+<position info="not_deleted" x="8791" y="0"/>
+</item>
+<item historyLabel="B06.cu" index="0">
+<position info="not_deleted" x="8791" y="0"/>
+</item>
+<item historyLabel="B06.cu" index="0">
+<position/>
+</item>
+<item historyLabel="B06.cu" index="0">
+<position info="not_deleted" x="10265" y="0"/>
+</item>
+<item historyLabel="Christian.cu" index="6">
+<position info="not_deleted" x="15604" y="0"/>
+</item>
+<item historyLabel="B06.cu" index="0">
+<position/>
+</item>
+<item historyLabel="Christian.cu" index="6">
+<position info="not_deleted" x="456" y="0"/>
+</item>
+<item historyLabel="B06.cu" index="0">
+<position/>
+</item>
+<item historyLabel="Christian.cu" index="6">
+<position info="not_deleted" x="545" y="0"/>
+</item>
+<item historyLabel="B06.cu" index="0">
+<position/>
+</item>
+<item historyLabel="Christian.cu" index="6">
+<position info="not_deleted" x="458" y="225"/>
+</item>
+<item historyLabel="B06.cu" index="0">
+<position info="not_deleted" x="687" y="0"/>
+</item>
+<item historyLabel="mesh_handler.cpp" index="7">
+<position info="not_deleted" x="5532" y="0"/>
+</item>
+<item historyLabel="mesh_handler.h" index="8">
+<position info="not_deleted" x="379" y="0"/>
+</item>
+<item historyLabel="mesh_handler.cpp" index="7">
+<position info="not_deleted" x="4404" y="0"/>
+</item>
+<item active="true" historyLabel="B06.cu" index="0">
+<position info="not_deleted" x="687" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -401,6 +413,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mesh_handler.h" tooltip="B06/src/mesh_handler.h">
+<persistable path="/B06/src/mesh_handler.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mesh_handler.cpp" tooltip="B06/src/mesh_handler.cpp">
+<persistable path="/B06/src/mesh_handler.cpp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="obj.c" tooltip="B06/src/obj.c">
 <persistable path="/B06/src/obj.c"/>
 </file>
